@@ -5,7 +5,7 @@ public class Anime {
     private int[] episodios;
 
     {
-        //bloco de inicialização
+        //bloco de inicialização muda
         this.episodios = new int[1000];
         for (int i = 0; i < this.episodios.length; i++) {
             episodios[i] = i;
