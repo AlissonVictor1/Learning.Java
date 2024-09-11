@@ -11,7 +11,7 @@ public class Aula07Arrays04 {
         //num oque acontece - for (int num = 0; num < numero3.lenght; num++)
         // num = numeros3[0]
         for(int num:numeros3){
-            System.out.println(num)
+            System.out.println(num);
         }
     }
 }
