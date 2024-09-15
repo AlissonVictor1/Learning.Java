@@ -6,7 +6,7 @@ public class CarroTest01 {
     public static void main(String[] args) {
         Carro c1 = new Carro("BMW",30);
        //modificador estatico
-        // o modificador estatico ele faz o atributo pertencer a classe.
+        // o modificador estatico ele faz o atributo pertencer a classe e não a instancia.
         Carro.setVelocidadelimite(180);
         c1.imprime();
     }

@@ -3,7 +3,7 @@ package academy.devddojo.maratonajava.javacore.FmodificadoresEstaticos.domain;
 public class Carro {
     private String nome;
     private double velocidadeMaxima;
-    private static double velocidadelimite = 250;
+    private static double velocidadelimite = 250; // nao é um atributo de instancia, é um atributo estático de classe.
 
     public Carro(String nome, double velocidadeMaxima) {
         this.nome = nome;
@@ -12,6 +12,7 @@ public class Carro {
     }
 
     public void imprime(){
+
         System.out.println("-----------");
         System.out.println("Nome " +this.nome);
         System.out.println("Velocidade Maxima " +this.velocidadeMaxima);
