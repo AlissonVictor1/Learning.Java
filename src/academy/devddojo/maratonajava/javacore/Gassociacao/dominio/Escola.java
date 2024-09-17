@@ -2,11 +2,11 @@ package academy.devddojo.maratonajava.javacore.Gassociacao.dominio;
 
 public class Escola {
 private String nome;
- private Professor [] professores;
+ private Professores[] professores;
     public void imprime(){
         System.out.println(this.nome);
         if (professores == null)return;
-        for (Professor professores : professores) {
+        for (Professores professores : professores) {
             System.out.println(professores.getNome());
 
         }
@@ -21,11 +21,11 @@ private String nome;
         this.nome = nome;
     }
 
-    public Professor[] getProfessores() {
+    public Professores[] getProfessores() {
         return professores;
     }
 
-    public void setProfessores(Professor[] professores) {
+    public void setProfessores(Professores[] professores) {
         this.professores = professores;
     }
 
