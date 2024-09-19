@@ -3,7 +3,7 @@ package academy.devddojo.maratonajava.javacore.Gassociacao.dominio;
 public class Professores {
     private String nome;
     private String especialidade;
-
+    private Seminario[] seminario;
     public Professores(String nome, String especialidade, Seminario[] seminario) {
         this.nome = nome;
         this.especialidade = especialidade;
@@ -18,7 +18,7 @@ public class Professores {
         this.especialidade = especialidade;
     }
 
-    private Seminario[] seminario;
+
 
 
 
