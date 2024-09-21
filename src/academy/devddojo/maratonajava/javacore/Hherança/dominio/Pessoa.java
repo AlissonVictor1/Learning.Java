@@ -1,9 +1,20 @@
 package academy.devddojo.maratonajava.javacore.Hherança.dominio;
 
-public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+public class Pessoa extends Object {
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
+
+    static {
+        System.out.println("Dentro do bloco estatico de pessoa");
+    }
+    {
+        System.out.println("Dentro do bloco de inicialização de pessoa");
+    }
+    public Pessoa(String nome){
+        System.out.println("Dentro do Construtor de pessoa");
+        this.nome = nome;
+    }
     public void imprime(){
         System.out.println(nome);
         System.out.println(cpf);
