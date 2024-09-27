@@ -1,19 +1,24 @@
 package academy.devddojo.maratonajava.javacore.Kenum.dominio;
 //leia embaixo
 public class Cliente {
+
     private String nome;
     private TipoCliente tipoCliente;
+    private TipoPagamento tipoPagamento;
 
-    public Cliente(String nome, TipoCliente tipoCliente) {
+    public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
         this.tipoCliente = tipoCliente;
+        this.tipoPagamento = tipoPagamento;
     }
 
     @Override
     public String toString() {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
+                ", tipoCliente=" + tipoCliente.getNomeRelatorio() +
                 ", tipoCliente=" + tipoCliente +
+                ", tipoPagamento=" + tipoPagamento +
                 '}';
     }
 
@@ -32,12 +37,12 @@ public class Cliente {
     public void setTipoCliente(TipoCliente tipoCliente) {
         this.tipoCliente = tipoCliente;
     }
+
+    public TipoPagamento getTipoPagamento() {
+        return tipoPagamento;
+    }
+
+    public void setTipoPagamento(TipoPagamento tipoPagamento) {
+        this.tipoPagamento = tipoPagamento;
+    }
 }
-    // public static final String PESSOA_FISICA = "PESSOA_FISICA";
-   // public static final String PESSOA_JURIDICA = "PESSOA_JURIDICA";
-
-        //  if(!tipo.equals(PESSOA_FISICA) || !tipo.equals(PESSOA_JURIDICA) ){
-        //     return;
-        // if(tipo nao for igual a pessoa fisica e tipo nao for igual a pessoa juridica) retorna nada
-
-
