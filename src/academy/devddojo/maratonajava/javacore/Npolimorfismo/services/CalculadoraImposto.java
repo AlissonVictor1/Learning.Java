@@ -10,8 +10,9 @@ public static void calcularImposto(Produto produto){
     System.out.println("Produto: " +produto.getNome());
     System.out.println("Preço: " +produto.getValor());
     System.out.println("Imposto a ser pago: " + imposto);
-    Tomate tomate = (Tomate) produto;
-    System.out.println(tomate.getDataValidade());
-
+    if(produto instanceof Tomate) {
+        Tomate tomate = (Tomate) produto;
+        System.out.println(tomate.getDataValidade());
+    }
 }
 }
