@@ -89,3 +89,21 @@ https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW
 1. Maratona Java 86 - Orientação Objetos - Classes abstratas pt 03 - Métodos abstratos regras
 1. Maratona Java 87 - Orientação Objetos - Interfaces pt 01 - Introdução
 1. Maratona Java 88 - Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
+1. Maratona Java 85 - Orientação Objetos - Classes abstratas pt 02 - Métodos abstratos
+1. Maratona Java 86 - Orientação Objetos - Classes abstratas pt 03 - Métodos abstratos regras
+1. Maratona Java 87 - Orientação Objetos - Interfaces pt 01 - Introdução
+1. Maratona Java 88 - Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
+1. Maratona Java 89 - Orientação Objetos - Interfaces pt 03 - Atributos e métodos estáticos
+1. Maratona Java 90 - Orientação Objetos - Polimorfismo pt 01 - Introdução
+1. Maratona Java 91 - Orientação Objetos - Polimorfismo pt 02 - Funcionamento
+1. Maratona Java 92 - Orientação Objetos - Polimorfismo pt 03 - Parâmetros polimórficos
+1. Maratona Java 93 - Orientação Objetos - Polimorfismo pt 04 - Cast e instanceof
+1. Maratona Java 94 - Orientação Objetos - Polimorfismo pt 05 - Programação orientada a interface
+1. Maratona Java 95 - Exceções pt 01 - Errors
+1. Maratona Java 96 - Exceções pt 02 - RuntimeException
+1. Maratona Java 97 - Exceções pt 03 - Exception
+1. Maratona Java 98 - Exceções pt 04 - Lançando exceção unchecked
+1. Maratona Java 99 - Exceções pt 05 - Lançando exceção checked
+1. Maratona Java 100 - Exceções pt 06 - Bloco Finally
+1. Maratona Java 101 - Exceções pt 07 - Capturando múltiplas exceções
+1. Maratona Java 102 - Exceções pt 08 - Multi catch em linha
