@@ -107,3 +107,18 @@ https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW
 1. Maratona Java 100 - Exceções pt 06 - Bloco Finally
 1. Maratona Java 101 - Exceções pt 07 - Capturando múltiplas exceções
 1. Maratona Java 102 - Exceções pt 08 - Multi catch em linha
+1. Maratona Java 103 - Exceções pt 09 - Try with resources
+1. Maratona Java 104 - Exceções pt 10 - Exceção customizada
+1. Maratona Java 105 - Exceções pt 11 - Exceção e regras de sobrescrita
+1. Maratona Java 106 - Classes Utilitárias - Wrappers pt 01
+1. Maratona Java 107 - Classes Utilitárias - Wrappers pt 02
+1. Maratona Java 108 - Classes Utilitárias - Strings pt 01
+1. Maratona Java 109 - Classes Utilitárias - Strings pt 02
+1. Maratona Java 110 - Classes Utilitárias - Strings pt 03 - Desempenho
+1. Maratona Java 111 - Classes Utilitárias - Strings pt 04 - StringBuilder
+1. Maratona Java 112 - Classes Utilitárias - Date
+1. Maratona Java 113 - Classes Utilitárias - Calendar
+1. Maratona Java 114 - Classes Utilitárias - DateFormat
+1. Maratona Java 115 - Classes Utilitárias - Internacionalização Datas com Locale
+1. Maratona Java 116 - Classes Utilitárias - Internacionalização Números com Locale
+1. Maratona Java 117 - Classes Utilitárias - Internacionalização de moeda com Locale
