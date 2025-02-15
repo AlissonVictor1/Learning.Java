@@ -23,6 +23,7 @@ public class ExceptionTest02 {
             e.printStackTrace();
             throw e;
         }
+        //
 
     }
 }
