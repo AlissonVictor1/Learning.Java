@@ -3,6 +3,7 @@ package academy.devddojo.maratonajava.javacore.Rdates.test;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
 
 public class DurationTest01 {
     public static void main(String[] args) {
@@ -13,6 +14,6 @@ public class DurationTest01 {
         Duration d1 = Duration.between(now, nowAfterTwoYears);
         // duration nao aceita localdate por que nao tem segundos
         Duration d2 = Duration.between(timeNow, timeminus7hours);
-        System.out.println(d1);
+
     }
 }

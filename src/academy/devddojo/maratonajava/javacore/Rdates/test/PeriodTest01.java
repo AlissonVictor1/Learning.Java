@@ -16,5 +16,7 @@ public class PeriodTest01 {
      //   System.out.println(p2);
     ////    System.out.println(p3);
         System.out.println(now.until(now.plusDays(p3.getDays()), ChronoUnit.MONTHS));
+        System.out.println(p1.getDays());
+
     }
 }
