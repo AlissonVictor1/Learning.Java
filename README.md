@@ -122,3 +122,19 @@ https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW
 1. Maratona Java 115 - Classes Utilitárias - Internacionalização Datas com Locale
 1. Maratona Java 116 - Classes Utilitárias - Internacionalização Números com Locale
 1. Maratona Java 117 - Classes Utilitárias - Internacionalização de moeda com Locale
+1. Maratona Java 118 - Classes Utilitárias - SimpleDateFormat
+1. Maratona Java 119 - Classes Utilitárias - LocalDate
+1. Maratona Java 120 - Classes Utilitárias - LocalTime
+1. Maratona Java 121 - Classes Utilitárias - LocalDateTime
+1. Maratona Java 122 - Classes Utilitárias - Instant
+1. Maratona Java 123 - Classes Utilitárias - Duration
+1. Maratona Java 124 - Classes Utilitárias - Period
+1. Maratona Java 125 - Classes Utilitárias - ChronoUnit
+1. Maratona Java 126 - Classes Utilitárias - TemporalAdjusters
+1. Maratona Java 127 - Classes Utilitárias - TemporalAdjuster
+1. Maratona Java 128 - Classes Utilitárias - ZonedDateTime, ZoneId, OffsetDateTime
+1. Maratona Java 129 - Classes Utilitárias - DateTimeFormatter
+1. Maratona Java 130 - Classes Utilitárias - ResourceBundle
+1. Maratona Java 131 - Classes Utilitárias - Regex pt 01 - Pattern e Matcher
+1. Maratona Java 132 - Classes Utilitárias - Regex pt 02 - Pattern e Matcher - Meta caracteres
+1. Maratona Java 133 - Classes Utilitárias - Regex pt 03 - Pattern e Matcher - Range
