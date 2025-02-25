@@ -1,5 +1,5 @@
-https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW
-
+# Curso Maratona Java DevdojoAcademy
+### Aqui Vou relatar todas as minhas etapas
 
 1. Maratona Java 01 - O que esperar do curso
 1. Maratona Java 02 - Como Java Funciona
