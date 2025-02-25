@@ -1,9 +1,10 @@
 package academy.devddojo.maratonajava.javacore.Uregex.test;
 
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternMatcherTest04 {
+public class PatternMatcherTest05 {
     public static void main(String[] args) {
         //  \d = Todos os dígitos
         //  \D = Tudo o que não for dígito
@@ -24,8 +25,13 @@ public class PatternMatcherTest04 {
         // | o(v/c)o ovo | oco
         // $
         // . 1.3 = 123,133,1@3, 1A3
-        String regex = "0[xX]([0-9a-fA-F])+";
-        String texto2 = "0xf";
+
+        String regex = "([a-zA-Z0-9\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+"; //validador de email
+        // ([a-zA-Z0-9]\._-) Esse trecho precisa se repetir uma ou mais vezes
+        String texto2 = "luffy@hotmail.com, 123jotaro@gmail.com, !@$$zoro@mail.br, teste@gmail.com, sakura@mail";
+
+        System.out.println("!@$$zoro@mail.br".matches(regex));
+        System.out.println(Arrays.toString(texto2.split(",")));
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto2);
@@ -36,10 +42,8 @@ public class PatternMatcherTest04 {
         while (matcher.find()) {
             System.out.print(matcher.start() + " " + matcher.group() + "\n");
         }
-        System.out.println(matcher.hasMatch());
 
-        // o que é necessario para ser um numero hexadecimal
-        // 0x(qualquernumero/letra de -F
+
 
     }
 }
