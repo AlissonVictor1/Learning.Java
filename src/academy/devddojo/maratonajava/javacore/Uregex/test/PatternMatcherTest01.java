@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class PatternMatcherTest01 {
     public static void main(String[] args) {
-        String regex = "aba";
+        String regex = "0x]";
 //        String texto = "abaaba";
         String texto2 = "abababa";
         Pattern pattern = Pattern.compile(regex);
