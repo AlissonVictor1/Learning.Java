@@ -1,5 +1,5 @@
 # Curso Maratona Java DevdojoAcademy
-### Aqui Vou relatar todas as minhas etapas
+### Aqui vou mostrar o meu progresso nas aulas
 
 1. Maratona Java 01 - O que esperar do curso
 1. Maratona Java 02 - Como Java Funciona
